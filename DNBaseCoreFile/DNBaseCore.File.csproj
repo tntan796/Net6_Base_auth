@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>DNBaseCore.File.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.12" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DNBase.Common\DNBase.Common.csproj" />
+    <ProjectReference Include="..\DNBase.DataLayer\DNBase.DataLayer.csproj" />
+    <ProjectReference Include="..\DNBase.Service\DNBase.Service.csproj" />
+    <ProjectReference Include="..\DNBase.ViewModel\DNBase.ViewModel.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="DNBaseCore.File.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+
+</Project>

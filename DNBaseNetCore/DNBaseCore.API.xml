@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DNBaseCore.API</name>
+    </assembly>
+    <members>
+        <member name="M:DNBase.Controllers.CRUDController.Create(DNBase.ViewModel.CRUDRequestModel)">
+            <summary>
+            DVNHAT: Thêm mới
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.CRUDController.Update(DNBase.ViewModel.CRUDRequestModel)">
+            <summary>
+            DVNHAT: Cập nhật
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.CRUDController.Delete(System.String)">
+            <summary>
+            DVNHAT: Xoá một 
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.CRUDController.DeleteMany(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            DVNHAT: Xoá nhiều 
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.CRUDController.GetDetail(System.String)">
+            <summary>
+            DVNHAT: Get chi tiết 
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.CRUDController.GetList(DNBase.ViewModel.PaginatedInputModel)">
+            <summary>
+            DVNHAT: Get danh sách
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.QTChucNangController.Create(DNBase.ViewModel.QT_ChucNangRequestModel)">
+            <summary>
+            DVNHAT: Thêm mới
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.QTChucNangController.Update(DNBase.ViewModel.QT_ChucNangRequestModel)">
+            <summary>
+            DVNHAT: Cập nhật
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.QTChucNangController.Delete(System.String)">
+            <summary>
+            DVNHAT: Xoá một 
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.QTChucNangController.DeleteMany(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            DVNHAT: Xoá nhiều 
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.QTChucNangController.GetDetail(System.String)">
+            <summary>
+            DVNHAT: Get chi tiết 
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.QTChucNangController.GetList(DNBase.ViewModel.PaginatedInputModel)">
+            <summary>
+            DVNHAT: Get danh sách
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.QTQuyenController.Create(DNBase.ViewModel.QT_QuyenRequestModel)">
+            <summary>
+            DVNHAT: Thêm mới
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.QTQuyenController.Update(DNBase.ViewModel.QT_QuyenRequestModel)">
+            <summary>
+            DVNHAT: Cập nhật
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.QTQuyenController.Delete(System.String)">
+            <summary>
+            DVNHAT: Xoá một 
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.QTQuyenController.DeleteMany(System.Collections.Generic.List{System.Guid})">
+            <summary>
+            DVNHAT: Xoá nhiều 
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.QTQuyenController.GetDetail(System.String)">
+            <summary>
+            DVNHAT: Get chi tiết 
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.QTQuyenController.GetList(DNBase.ViewModel.PaginatedInputModel)">
+            <summary>
+            DVNHAT: Get danh sách
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.QTRoleController.GetDetail(System.String)">
+            <summary>
+            DVNHAT: Get chi tiết 
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.QTRoleController.GetList(DNBase.ViewModel.PaginatedInputModel)">
+            <summary>
+            DVNHAT: Get danh sách
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.QTUserController.GetDetail(System.String)">
+            <summary>
+            DVNHAT: Get chi tiết 
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.QTUserController.GetList(DNBase.ViewModel.PaginatedInputModel)">
+            <summary>
+            DVNHAT: Get danh sách
+            </summary>
+        </member>
+        <member name="M:DNBase.Controllers.SystemController.GetListCategoryItem(System.String)">
+            <summary>
+            DVNHAT: Lấy danh mục
+            </summary>
+        </member>
+    </members>
+</doc>
